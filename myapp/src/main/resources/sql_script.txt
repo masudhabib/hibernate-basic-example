@@ -1,0 +1,9 @@
+CREATE TABLE myapp_schema.author(
+	id bigint(20) not null, 
+	last_name varchar(40) not null, 
+	PRIMARY KEY (id)
+);
+
+INSERT INTO myapp_schema.author (id, last_name) values(1003, 'Watson');
+INSERT INTO myapp_schema.author (id, last_name) values(1002, 'Doe');
+INSERT INTO myapp_schema.author (id, last_name) values(1001, 'Holms');
